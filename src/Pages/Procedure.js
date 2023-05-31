@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Procedure = () => {
   const classes = useStyles();
-  const [dat, setDat] = useState(null);
+  const [dat, setDat] = useState([]);
   const navigate = useNavigate();
 
   const columns1 = [
